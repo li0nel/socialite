@@ -19,7 +19,7 @@ class LinkedInProvider extends AbstractProvider implements ProviderInterface
     protected $fields = [
         'id', 'first-name', 'last-name', 'formatted-name',
         'email-address', 'headline', 'location', 'industry',
-        'public-profile-url', 'picture-url', 'picture-urls::(original)',
+        'picture-url', 'picture-urls::(original)',
     ];
 
     /**
